@@ -1,0 +1,20 @@
+open a react app with "yarn open"
+
+Im having trouble making the react merchandise objects. I'd like to use a json file to get all the information for the merchandise.
+
+Im also struggling with the img files. I found out that one of the issues i am having was with the name of the file.
+
+design the site,
+figur eout the Functionality
+
+
+greg task:
+building the datastore
+api keys
+
+need facebook events plugin, amazon plugin, material ui
+
+jack task:
+continue building the fron end
+
+i am struggling trying to get the file path to be read and not sure what i need to do to fix it.

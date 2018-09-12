@@ -1,0 +1,14 @@
+#menuContainer {
+  background-color: purple;
+  padding: 5px;
+}
+
+#menuButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}

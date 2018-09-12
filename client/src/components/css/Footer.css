@@ -1,0 +1,17 @@
+footer {
+  background-color: brown;
+}
+
+.partnerPic {
+  height: 70px;
+}
+
+#partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
