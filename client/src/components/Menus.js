@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import MenuAccess from './MenuAccess'
-import FavoriteFood from './FavoriteFood'
 import './css/Menu.css'
 
 class Menu extends Component {
+  // menu needs a theme. what should it be? white like a paper menu?
+  // look up how to animations. ask greg how to get animations
+
+  //make buttons resond when theyre clicked.
+
+  // make a json file that groups all the pictures and buttons together
+
   render() {
     return (
       <div id="menuContainer">
@@ -11,15 +17,12 @@ class Menu extends Component {
         MENUS
         <br/>
         <br/>
-        Click for full menu
-        <br/>
-        <br/>
-        <div id="menuButtons">
-          <MenuAccess />
-          <button>
-            Drinks
+        <div id="menuButtonAr">
+          <MenuAccess className="menuButton"/>
+          <button className="menuButton">
+            Event Menu
           </button>
-          <button>
+          <button className="menuButton">
             Brunch
           </button>
           <button>
@@ -28,16 +31,7 @@ class Menu extends Component {
           <button>
             Happy hour
           </button>
-          <button>
-            Rooftop
-          </button>
         </div>
-        <br/>
-        <div>
-          Favorite Items
-        </div>
-        <br/>
-        <FavoriteFood />
         <br/>
       </div>
     );

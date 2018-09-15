@@ -18,3 +18,5 @@ jack task:
 continue building the fron end
 
 i am struggling trying to get the file path to be read and not sure what i need to do to fix it.
+
+so far today i made the pirst structural markers of the website. to make it better i need images. I need to ask rebeca for various pictures that highlight our aim for the website

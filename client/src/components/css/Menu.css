@@ -1,11 +1,13 @@
+/* the menu area needs to be white with color in the buttons */
+
 #menuContainer {
-  background-color: purple;
+  background-color: red;
   padding: 5px;
 }
 
-#menuButtons {
+#menuButtonAr {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 

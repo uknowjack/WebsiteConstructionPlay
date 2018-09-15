@@ -10,7 +10,7 @@ ul {
   list-style: none;
 
   width: 70%;
-  background-color: green;
+  background-color: white;
 }
 
 li {
@@ -21,5 +21,5 @@ nav {
   display: flex;
   height: 35px;
 
-  background-color: yellow;
+  background-color: black;
 }

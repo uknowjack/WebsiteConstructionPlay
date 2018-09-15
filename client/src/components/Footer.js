@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import './css/Footer.css'
 
 class Footer extends Component {
+
+// get a picture of the red curtains at Carraghers for the background of the footer
+
   render() {
     return (
       <footer>
-        <div>
+        <div id="footerContainer">
           <br/>
           OUR PARTNERS
           <br/><br/>
